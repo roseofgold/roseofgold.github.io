@@ -2,5 +2,5 @@
 - degree: Computer Networking, A.A., Computer Applications
   uni: Clackamas Community College
   year: 2002 &mdash; 2006
-  awards: Dean's List
+#  awards: Dean's List
   summary: Final project was the creation of a website based in ColdFusion.
