@@ -50,6 +50,10 @@
 
 // type utilities
 
+@mixin swash {
+  font-family: 'Berkshire Swash', cursive; 
+}
+
 @mixin sans {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
