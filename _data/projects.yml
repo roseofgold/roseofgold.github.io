@@ -1,16 +1,9 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# probot
-- project: probot
+# Cascadia PHP
+- project: Cascadia PHP
   role: Contributor
-  duration: 2016 &mdash; Present
-  url: "https://github.com/probot/probot"
-  description: A framework for building GitHub Apps to automate and improve your workflow
-
-# GitHub Classroom
-- project: GitHub Classroom
-  role: Contributor
-  duration: 2015 &mdash; Present
-  url: "https://github.com/education/classroom"
-  description: GitHub Classroom automates repository creation and access control, making it easy for teachers to distribute starter code and collect assignments on GitHub.
+  duration: 2018 &mdash; Present
+#  url: "https://github.com/education/classroom"
+  description: Cascadia PHP fosters community through educational meetups and a conference with focus on PHP; building a bridge between developers, local businesses, and the Pacific NW tech scene.
