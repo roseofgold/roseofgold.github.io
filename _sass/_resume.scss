@@ -36,7 +36,7 @@
     text-align: center;
     letter-spacing: -.15rem;
     line-height: 1;
-    margin: 1rem 0 2rem;
+    margin: 1rem 0;
   }
 
   .header-contact-info {
@@ -69,6 +69,7 @@
   }
 
   .executive-summary {
+    text-align:center;
     @include media_larger_than_mobile { font-size: 1.125rem; }
   }
 }
@@ -84,7 +85,6 @@
   padding-top: .4rem;
 
   @include media_larger_than_mobile {
-    float: right;
     border-top: none;
     padding-top: 0;
   }
