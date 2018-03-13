@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "false"
 resume_name:                    "Melinda Serven"
-resume_title:                   "Web Designer"
+#resume_title:                   "Web Designer"
 resume_contact_email:           "roseofgold@gmail.com"
 resume_contact_telephone:       "1 (503) 555-4091"
 resume_contact_address:         "Milwaukie, OR"
