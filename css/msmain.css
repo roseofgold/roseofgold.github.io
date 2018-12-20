@@ -1,9 +1,20 @@
 /* css file for changes to the design of MelindaServen.com */
 .executive-summary {
-    top: 130px;
-    position: relative;
-    text-align: center;
-    color: #ece4d8;
+  top: 130px;
+  position: relative;
+  text-align: center;
+  color: #ece4d8;
+}
+
+.icon-links {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.icon-link-item {
+  background: none;
+  display: inline-block;
 }
 
 .section-header {
