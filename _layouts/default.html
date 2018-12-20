@@ -30,7 +30,7 @@
           <span class="ribbon-inner">
             <!-- Your name is defined in the _config.yml file -->
             <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
-            <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+            <p>{{ site.resume_header_contact_info }}</p>
           </span>
           <span class="left-tail"></span>
           <span class="right-tail"></span>
@@ -47,12 +47,11 @@
         <div id="no-downloads">
           <span class="inner">
             <div class="executive-summary no-print" itemprop="description">
-              {{ site.resume_header_intro }}
+              <h2>{{ site.description | default: site.github.project_tagline }}</h2>
             </div>
           </span>
         </div>
       {% endif %}
-
 
       <span class="banner-fix"></span>
 
@@ -60,8 +59,7 @@
 
         <!-- Contact buttons don't work in print, configure in the _config.yml file, remove "print-only" to display always. -->
         <div class="header-contact-info">
-          <p>{{ site.resume_header_contact_info }}</p>
-        
+                  
           <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
           {% include icon-links.html %}
 
