@@ -17,6 +17,18 @@
   display: inline-block;
 }
 
+.contact-button {
+    background: #5a7f98;
+    color: #ece4d8;
+    padding: .5em;
+    display: block;
+    margin: 1em auto;
+    width: 5em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
 .section-header {
   position:initial;
   margin-bottom:10px;
