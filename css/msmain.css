@@ -1,4 +1,11 @@
 /* css file for changes to the design of MelindaServen.com */
+.executive-summary {
+    top: 130px;
+    position: relative;
+    text-align: center;
+    color: #ece4d8;
+}
+
 .section-header {
   position:initial;
   margin-bottom:10px;
