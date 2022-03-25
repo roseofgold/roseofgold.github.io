@@ -122,7 +122,15 @@ header{top: 0px;max-width:100%;}
     color: #fff;
   }
 
-  &.not-looking { width: 400px; }
+  &.not-looking {
+    width: 400px;
+  }
+}
+
+.not-looking {
+  width:70%;
+  background: transparent;
+  color: maroon;
 }
 
 // resume content styles
