@@ -1,15 +1,19 @@
 /* css file for changes to the design of MelindaServen.com */
-.executive-summary {
-  top: 130px;
-  position: relative;
-  text-align: center;
-  color: #ece4d8;
+*, html { margin:0; padding:0; }
+
+body {
+    margin: 1em auto;
+    text-align: center;
 }
 
-.icon-links {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
+
+.me {
+    font-size: 3em;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
+.me-tag{
+    font-size: 1em;
 }
 
 .icon-link-item {
@@ -18,8 +22,8 @@
 }
 
 .contact-button {
-    background: #5a7f98;
-    color: #ece4d8;
+    background: rebeccapurple;
+    color: white;
     padding: .5em;
     display: block;
     margin: 1em auto;
@@ -27,25 +31,29 @@
     text-align: center;
     font-weight: bold;
     font-size: 1.25em;
+    text-decoration-line: none;
 }
 
-.section-header {
-  position:initial;
-  margin-bottom:10px;
+.category h2 {
+    font-family: "Lora", "Minion Pro", Palatino, Georgia, serif;
+    background: rebeccapurple;
+    color: white;
+    padding: .5em;
 }
 
-.section-header h2 {
-  font-size: 1.5em;
-  padding: 4px;
-  margin: 0 auto;
+.experience {
+    border: 1px solid rebeccapurple;
+    padding: 2px;
+    margin: 2px;
+}
+
+.experience h3 {
+    font-size: 1.75em;
 }
 
 .resume-item {
-  margin: 0 10px 10px 10px;
-  padding: 10px;
-  border-bottom: 1px solid #d3d3d3;
-}
-
-.resume-item-title {
-    font-size: 1.25em;
+    margin: 2px;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    display: inline-block;
 }
